@@ -6,7 +6,7 @@ I got this dataset from a website with the URL as https://leaps.analyttica.com/h
 
 Now, this dataset consists of 10,000 customers mentioning their age, salary, marital_status, credit card limit, credit card category, etc. There are nearly 18 features. We have only 16.07% of customers who have churned. Thus, it's a bit difficult to train our model to predict churning customers.
 
-# Metodologi
+# Methodology
 
 To overcome the unbalanced amount of data, this project compares the oversampling and undersampling methods. In order to keep the performance measurement on-track, this project uses the ROC curve to measure the performance of a model whose dataset is imbalanced. ROC curve that is close to 1 means that the model built has good performance with an optimal cutoff value and avoids high variance/overfitting.
 
